@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 28px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.template {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.template textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+button{
+    margin: 2px;
+}
+.btnRed {
+    background-color: #dc3545;
+    color: #ffff;
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btnRed:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+.btnYellow {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btnYellow:hover {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.btnGreen {
+    background-color: #228d3b;
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnGreen:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+.btnBlue {
+    background-color: #4285f4;
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnBlue:hover {
+    border: 1px solid black;
+    color: black;
+}
